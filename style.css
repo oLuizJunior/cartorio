@@ -1,0 +1,32 @@
+
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 10, 105, 0.48) -24.57%,
+    rgba(0, 16, 163, 0.48) 50%
+  );
+  color: white;
+}
+
+.header-sales,
+.header-language {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: #092bd7;
+  padding: 0.5rem;
+}
+
+.header-sales-number,
+.header-language-contry {
+  display: none;
+}
