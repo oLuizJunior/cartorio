@@ -40,7 +40,23 @@ html {
   display: none;
 }
 
+.navbar-header {
+  background: #fff;
+}
 
+.navbar-contactLink {
+  border-radius: 26px;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
 
 
 .lineDecoration {
@@ -82,7 +98,7 @@ h1.home-title {
 
 p.home-text {
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-size: min(calc(1.225rem + 0.3vw), 1.5rem);
   line-height: 138%;
 }
@@ -520,7 +536,6 @@ p.home-text {
 .navbar {
   display: flex;
   text-decoration: none;
-  gap: 1rem;
   font-size: 1.15rem;
   background: #000a69;
 }
@@ -542,7 +557,7 @@ p.home-text {
 
 .attendanceNumber {
   text-decoration: none;
-  padding: 0px 0px 43.85px 0px;
+  /* padding: 0px 0px 43.85px 0px; */
   background: #000a69;
   color: white;
   font-size: 19.2215px;

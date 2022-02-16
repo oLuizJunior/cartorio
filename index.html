@@ -14,8 +14,8 @@
   </head>
   <body>
     <div class="container-fluid header">
-      <div class="row">
-        <div class="col-md-12 header">
+      <div class="row mx-auto">
+        <div class="col-md-8 header">
               <div>
                 <div class="header-language">
                   <img src="images/flag-brazil.svg" alt="Bandeira do Brasil" />
@@ -44,18 +44,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Diferenciais</a>
+                  <a class="nav-link text-dark" aria-current="page" href="#">Diferenciais</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Vantagens</a>
+                  <a class="nav-link text-dark" href="#">Vantagens</a>
                 </li>
               </ul>
-              <div class="navbar-right" id="navbar-right">
-                <a class="navbar-enter" href="#">
+              <div class="d-flex flex-column navbar-right" id="navbar-right">
+                <a class="text-decoration-none navbar-enter" href="#">
                   <img class="img-avatar" src="images/avatar.svg" alt="ícone de avatar" />
                   Entrar
                 </a>
-                <a class="navbar-contactLink" href="#faleConosco">Fale com um consultor</a>
+                <div>
+                  <a class="col-md-6 btn btn-outline-primary mt-3 text-decoration-none navbar-contactLink" href="#faleConosco">
+                    Fale com um consultor
+                  </a>
+                </div>
               </div>
             </div>
            
@@ -321,7 +325,7 @@
           <div class="footer-navbar">
             <p>Central de Atendimento</p>
     
-            <nav class="navbar">
+            <nav class="mb-3 gap-2 navbar">
               <a href="#" class="plataforma">Plataforma</a>
               <a href="#" class="diferenciais">Diferenciais</a>
               <a href="#" class="funcionalidades">Funcionalidades</a>
@@ -334,7 +338,7 @@
             <nav>
           </div>
 
-          <a href="tel:+5508005911478" class="attendanceNumber">
+          <a href="tel:+5508005911478" class="py-4 attendanceNumber">
             <img src="images/footer-tel.svg" alt="Telefone" />
               <span>+55 0800 591 1478</span>
           </a>
